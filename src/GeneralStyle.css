@@ -1,0 +1,15 @@
+.text-black{
+    color: black !important;
+}
+.text-white{
+    color: white !important;
+}
+
+.img-crsl{
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.opct-5{
+    opacity: 50%;
+}
