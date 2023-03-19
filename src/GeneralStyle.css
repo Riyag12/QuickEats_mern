@@ -4,12 +4,47 @@
 .text-white{
     color: white !important;
 }
+.text-blue{
+    color: rgb(77, 159, 241) !important;
+}
+.text-purple{
+    color: rgb(107, 77, 241) !important;
+}
+#orderSize{
+    margin: .15rem;
+
+}
+#orderSize::placeholder{
+    color: white;
+}
+
 
 .img-crsl{
+    min-height: 400px;
     max-height: 400px;
     object-fit: cover;
 }
 
 .opct-5{
     opacity: 50%;
+}
+
+.btn-white{
+    background-color: rgb(134, 191, 226);
+    color: green;
+    transition: .5s;
+}
+
+.btn-white:hover{
+transform:translateZ(5px) scale(1.1);
+color: blue;
+}
+#foodsearch1{
+    color: black;
+}
+#foodsearch2{
+    color: black;
+}
+#foodsearch3{
+    color: black;
 }

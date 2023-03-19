@@ -3,26 +3,28 @@ import Home from './screens/Home';
 import {
   BrowserRouter as Router, Routes, Route
 } from "react-router-dom";
-import Login from './screens/Login';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Carousel from './components/Carousel';
+import { CartProvider } from './components/ContextReducer';
+import MyOrders from './screens/MyOrders';
+
 
 
 
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-    <Carousel/>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/login" element={<Login />} />
-      </Routes>
+    <CartProvider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/myOrder" element={<MyOrders />} />
+        </Routes>
 
-      <Footer />
-    </Router>
+        <Footer />
+      </Router>
+    </CartProvider>
   );
 }
 
