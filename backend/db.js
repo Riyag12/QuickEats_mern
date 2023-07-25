@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const mongoURI="mongodb://127.0.0.1:27017/foodmonk";
+const mongoURI="mongodb+srv://username:password@cluster0.knahmuf.mongodb.net/?retryWrites=true&w=majority";
 
 
 // MongoClient.connect("mongodb://localhost:27017/exampleDb", function(err, db) {

@@ -13,7 +13,7 @@ export default function Footer() {
       <li className="nav-item"><Link to="/" className="nav-link px-2 text-muted">FAQs</Link></li>
       <li className="nav-item"><Link to="/" className="nav-link px-2 text-muted">About</Link></li>
     </ul>
-    <p className="text-center text-muted">© 2023 <b>FoodMonk</b>, Inc</p>
+    <p className="text-center text-muted">© 2023 <b>QuickEats</b>, Inc</p>
     <div className='d-flex mx-auto'>
     <ul className="nav col-md-4 mx-auto list-unstyled d-flex justify-content-between">
       <li className="ms-3 fs-3"><Link className="text-muted" to="https://www.instagram.com/" target={'_blank'}><i className="fa-brands fa-instagram"></i></Link></li>

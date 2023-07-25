@@ -20,7 +20,7 @@ router.post('/orderData',async(req,res)=>{
             })
         } catch (error) {
             // console.log(error.message);
-            res.send("Servetr Error",error.message);
+            res.send("Server Error",error.message);
         }
     }
     else{

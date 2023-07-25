@@ -126,7 +126,7 @@ export default function Navbar() {
             <div>
                 <nav className="navbar navbar-expand-sm bg-warning">
                     <div className="container-fluid d-flex">
-                        <Link className="text-black navbar-brand fs-4" to="/" ><img src="./Images/Navicon.png" alt="" style={{ height: "70px", margin: "0 .5rem" }} /><i>FoodMonk</i></Link>
+                        <Link className="text-black navbar-brand fs-4" to="/" ><img src="./Images/logo.png" alt="" style={{ height: "70px", margin: "0 .5rem" }} /><i>QUICKEATS</i></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -174,7 +174,7 @@ export default function Navbar() {
                 <div className="toast" id="Toast" role="alert" aria-live="assertive" aria-atomic="true">
                     <div className="toast-header">
                         {/* <img src="..." className="rounded mr-2" alt="..."> */}
-                        <strong className="mr-auto">FoodMonk</strong>
+                        <strong className="mr-auto">QuickEats</strong>
                         {/* <small>11 mins ago</small> */}
                         <button type="button" className="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
                             <span aria-hidden="true">&times;</span>

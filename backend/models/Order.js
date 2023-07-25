@@ -4,7 +4,7 @@ const {Schema} = mongoose;
 const OrderSchema = new Schema({
     email:{
         type: String,
-        requirerd: true,
+        required: true,
         unique: true
     },
     order_data:{
