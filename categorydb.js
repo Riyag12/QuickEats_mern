@@ -5,7 +5,7 @@ const catjson = require("./foodCategory.json");
 
 const start = async () => {
     try {
-        await mongoURI("mongodb+srv://riyag12:riya12@cluster0.knahmuf.mongodb.net/?retryWrites=true&w=majority");
+        await mongoURI("mongodb+srv://username:password@cluster0.knahmuf.mongodb.net/?retryWrites=true&w=majority");
         await foodcategory.create(catjson);
         console.log("success");
         
